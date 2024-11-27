@@ -6,18 +6,19 @@ This project automates the **DailyFinance** workflows using **Selenium**, **Test
 ## Project Overview
 The project automates key user workflows such as:
 - Registration
-- Email confirmation
-- Password reset
-- Item listing
+- Admin login && Check Registered User
+- User Login
+- Item listing from CSV
+- Filter item and Check amount 
 - Profile updates
-- Admin verification
+
 
 ## Features
 - **Page Object Model (POM):** A structured design pattern for maintainable and reusable code.
 - **Allure Reporting:** Provides detailed and interactive test execution reports, making it easier to analyze results.
 - **Gradle Build System:** Simplifies dependency management and task execution for seamless development workflow.
 - **TestNG Suite:** Allows for grouping and running multiple test classes together.
-- 
+  
 ## Prerequisites
 Before running the project, ensure you have:
 - **Java 8 or higher** installed.
