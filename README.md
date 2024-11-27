@@ -38,7 +38,7 @@ Before running the project, ensure you have:
   allure generate allure-results --clean -output allure serve allure-results
 
 
-##Allure Reports
+## Allure Reports
 
 ![image](https://github.com/user-attachments/assets/d79c4a34-7b4b-4677-a27a-5ab99a0e87c1)
 ![image](https://github.com/user-attachments/assets/8c259ce7-cfa0-4caf-a58a-a26bab4a72e4)
@@ -46,7 +46,7 @@ Before running the project, ensure you have:
 
 
 
-##Smoke Suite Video:
+## Smoke Suit Video
 
 https://github.com/user-attachments/assets/11f72f8c-aef3-4c21-ad10-5a98d27ac73a
 
