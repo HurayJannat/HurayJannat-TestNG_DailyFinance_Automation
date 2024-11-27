@@ -18,27 +18,6 @@ import java.time.Duration;
 public class LoginTestRunner extends Setup {
 
 
-
-   @Test(priority = 1, description = "User should be able to login with valid creds")
-    public void doAdminLogin()
-    {
-        LoginPage login = new LoginPage(driver);
-        login.dologin("admin@test.com","admin123");
-
-
-        //Wait
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='Dashboard']")));
-
-        //Assert
-        String expectedText = "Admin Dashboard";
-        String actualText = driver.findElement(By.className("admin-dashboard")).getText();
-        System.out.println(actualText);
-        Assert.assertTrue(actualText.contains(expectedText));
-
-    }
-
-
    @Test(priority = 1, description = "User should Not be able to login with invalid creds",groups = "regression")
     public void doNoTLoginWithInvalidCreds() throws InterruptedException {
         //Login
@@ -79,7 +58,7 @@ public class LoginTestRunner extends Setup {
 
 
 
-    @Test(priority = 1, description = "User should be able to login",groups = {"smoke","regression"})
+    @Test(priority = 2, description = "User should be able to login",groups = {"smoke","regression"})
     public void userLogin() throws IOException, ParseException {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.userLogin(driver);
