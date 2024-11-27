@@ -43,7 +43,8 @@ Before running the project, ensure you have:
 
 ![image](https://github.com/user-attachments/assets/d79c4a34-7b4b-4677-a27a-5ab99a0e87c1)
 ![image](https://github.com/user-attachments/assets/8c259ce7-cfa0-4caf-a58a-a26bab4a72e4)
-![image](https://github.com/user-attachments/assets/55618b17-e524-4b91-a9dd-b63a80fec83b)
+![image](https://github.com/user-attachments/assets/6fcb1e55-4736-4da4-b47d-69819e9f58ea)
+
 
 
 
