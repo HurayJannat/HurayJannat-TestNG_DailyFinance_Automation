@@ -84,6 +84,14 @@ public class LoginTestRunner extends Setup {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.userLogin(driver);
         Utils.getToken(driver);
+       //Wait
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='Dashboard']")));
+
+        // Assert
+        String expectedText = "Dashboard";
+        String actualText = driver.findElement(By.xpath("//div[text()='Dashboard']")).getText();
+        Assert.assertEquals(actualText, expectedText, "The actual text does not match the expected text.");
 
 
     }
