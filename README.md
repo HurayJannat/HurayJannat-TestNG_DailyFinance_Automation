@@ -40,9 +40,13 @@ Before running the project, ensure you have:
 
 ##Allure Reports
 
-![image](https://github.com/user-attachments/assets/0b518399-b458-45c9-bead-79b723a4bab9)
-![image](https://github.com/user-attachments/assets/7d4585a7-43b1-46a2-9ea4-57b3c3712887)
-![image](https://github.com/user-attachments/assets/386fb513-254f-49d4-895a-d56c7bd53fb5)
+![image](https://github.com/user-attachments/assets/d79c4a34-7b4b-4677-a27a-5ab99a0e87c1)
+![image](https://github.com/user-attachments/assets/8c259ce7-cfa0-4caf-a58a-a26bab4a72e4)
+![image](https://github.com/user-attachments/assets/55618b17-e524-4b91-a9dd-b63a80fec83b)
 
+
+
+##Smoke Suite Video:
+https://github.com/user-attachments/assets/e3eaae72-2a9c-4199-8f25-5211fdf1592d
 
 
