@@ -47,6 +47,9 @@ Before running the project, ensure you have:
 
 
 ##Smoke Suite Video:
-https://github.com/user-attachments/assets/e3eaae72-2a9c-4199-8f25-5211fdf1592d
+
+
+Uploading 2024-11-27 15-53-34.mp4…
+
 
 
