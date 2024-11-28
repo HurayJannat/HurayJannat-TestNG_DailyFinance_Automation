@@ -65,6 +65,10 @@ public class AdminDashboardTestRunner extends Setup {
         Assert.assertEquals(email, csvEmail);
         Assert.assertEquals(phone, csvPhone);
 
+        Thread.sleep(3000);
+        LoginPage login = new LoginPage(driver);
+        login.doLogout(driver);
+
 
     }
 

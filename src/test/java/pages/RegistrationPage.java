@@ -48,7 +48,6 @@ public class RegistrationPage {
         txtPassword.sendKeys(registrationModel.getPassword());
         txtPhoneNumber.sendKeys(registrationModel.getPhoneNumber());
         txtAddress.sendKeys(registrationModel.getAddress()!=null?registrationModel.getAddress():"");
-
         femaleRadioButton.click();
         requiredCheckbox.click();
         btnRegistration.click();

@@ -27,13 +27,6 @@ public class DashboardTestRunner extends Setup {
         Utils.setAuth(driver);
     }
 
-    @Test(priority = 3, description = " Add Item Manually" )
-    public void addItem() throws IOException, InterruptedException {
-        DashboardPage dashboardPage = new DashboardPage(driver);
-        dashboardPage.addItem("dress","1230","12","January","Awosome");
-
-
-    }
 
 
    @Test(priority = 1, dataProvider= "AddItemCSV", dataProviderClass = ItemsDataSet.class, groups ={"smoke","regression"} )

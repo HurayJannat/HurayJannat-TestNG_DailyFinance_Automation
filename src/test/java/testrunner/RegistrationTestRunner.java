@@ -20,7 +20,7 @@ public class RegistrationTestRunner extends Setup {
 
 
 
-    @Test(description = "User should not register without required fields", groups="regression")
+    @Test(priority = 1, description = "User should not register without required fields", groups="regression")
     public void registrationWithoutRequired() throws IOException, ParseException, InterruptedException {
         RegistrationPage reg = new RegistrationPage( driver);
         reg.registerLink.click();
@@ -32,7 +32,7 @@ public class RegistrationTestRunner extends Setup {
 
     }
 
-  @Test(description = "user should be able to register with all the fields",groups = {"smoke","regression"})
+  @Test(priority = 3, description = "user should be able to register with all the fields",groups = {"smoke","regression"})
     public void registrationWithALlInput() throws InterruptedException, IOException, ParseException {
         RegistrationPage registration= new RegistrationPage(driver);
         Faker faker =new Faker();
@@ -80,7 +80,7 @@ public class RegistrationTestRunner extends Setup {
     }
 
 
- @Test(description = "user should be able to register only required fields",groups ="regression")
+ @Test(priority = 2, description = "user should be able to register only required fields",groups ="regression")
     public void registrationWithRequiredInput() throws IOException, ParseException, InterruptedException {
 
         RegistrationPage registration= new RegistrationPage(driver);
@@ -103,7 +103,7 @@ public class RegistrationTestRunner extends Setup {
 
 
         //Assert
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         String expectedMessage="registered successfully!";
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         String successMessage= wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("Toastify__toast"))).getText();
